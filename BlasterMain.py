@@ -207,8 +207,14 @@ if cmd == "layer3" or cmd == "l3":
     while cmd not in valid_commands:
         cmd = input("[Blaster~@Verty]> ").lower()
 
-elif cmd == "layer7" or cmd == "l7":
+if cmd == "layer7" or cmd == "l7":
     print(layer7)
+    cmd = input("[Blaster~@Verty]> ").lower()
+    while cmd not in valid_commands:
+        cmd = input("[Blaster~@Verty]> ").lower()
+
+if cmd == "layer4" or cmd == "l4":
+    print(layer4)
     cmd = input("[Blaster~@Verty]> ").lower()
     while cmd not in valid_commands:
         cmd = input("[Blaster~@Verty]> ").lower()
